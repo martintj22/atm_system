@@ -36,8 +36,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM testtable WHERE Card_number=".$_S
 		<?php
 		while($res = mysqli_fetch_array($result)) {		
 			echo "<tr>";
-			echo "<td>".$res['name']."</td>";
-			echo "<td>".$res['qty']."</td>";
+			echo "<td>".$res['konto']."</td>";
+			echo "<td>".$res['saldo']."</td>";
 		  echo "<td><a href=\"edit.php?id=$res[id]\">500.kr</a> | </td>";		
 
 		}
