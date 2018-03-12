@@ -21,7 +21,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM konto WHERE login_id=".$_SESSION[
 
 <html>
 <head>
-	<title>Homepage</title>
+	<title>Forside</title>
 </head>
 
 
