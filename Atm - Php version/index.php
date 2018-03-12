@@ -19,14 +19,18 @@
 		<br/>
 		<a href='view.php'>Hvis konto</a>
 		<br/><br/>
+	
+	
 	<?php	
-	} else {
+	} else 
+	{
 		echo "Indtast konto oplysninger for at hæve et beløb.<br/><br/>";
 		echo "<a href='login.php'>Login</a> | <a href='register.php'>Register</a>";
 	}
 	?>
+	
 	<div id="footer">
-		<h1> Et skole prjekt </h1>
+		<h1> Et skole projekt </h1>
 	</div>
 </body>
 </html>
