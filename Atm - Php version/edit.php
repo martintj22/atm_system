@@ -11,7 +11,7 @@ if(!isset($_SESSION['valid'])) {
 				
 
 <?php
-// including the database connection file
+// Henter connections fil
 include_once("connection.php");
 
 if(isset($_POST['update']))
